@@ -14,7 +14,7 @@ image:
 
 ---
 
-[Silver Platter](https://tryhackme.com/r/room/silverplatter) from [TryHackMe](https://tryhackme.com/signup?referrer=603949780215185dfb191142) We will be exploiting a known web application vulnerability that allowed authentication bypass, granting access without a password. Inside, we discovered SSH credentials, leading to an initial foothold. The compromised user was part of the adm group, enabling access to logs where we uncovered a database password. However, this password belonged to another user on the system. Fortunately, this second user had unrestricted sudo privileges, providing a straightforward path to root access.
+[Silver Platter](https://tryhackme.com/r/room/silverplatter) from [TryHackMe](https://tryhackme.com/) We will be exploiting a known web application vulnerability that allowed authentication bypass, granting access without a password. Inside, we discovered SSH credentials, leading to an initial foothold. The compromised user was part of the adm group, enabling access to logs where we uncovered a database password. However, this password belonged to another user on the system. Fortunately, this second user had unrestricted sudo privileges, providing a straightforward path to root access.
 
 ## **Enumeration**
 
