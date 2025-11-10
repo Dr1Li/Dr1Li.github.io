@@ -7,7 +7,7 @@ categories : [HackTheBox]
 tags: [hackthebox, windows, medium, active directory, smb, vnc, reverse engineering, dll, crypto, ldap, password reuse, recyclebin]
 img_path: /assets/img/HackTheBox/Machines/Cascade
 image:
-    path: /assets/img/HackTheBox/Machines/cascade/cascade.png
+    path: /assets/img/HackTheBox/Machines/Cascade/cascade.png
 ---
 
 <div align="center"> <script src="https://tryhackme.com/badge/2794771"></script> </div>
@@ -454,7 +454,7 @@ we have some binaries and a DB inside it
 
 we can find this 
 
-![image.png](/assets/img/HackTheBox/Machines/Cascade/image%201.png)
+![image.png](/assets/img/HackTheBox/Machines/Cascade/image1.png)
 
 and when we decode the password from base64 we get this 
 
@@ -479,17 +479,17 @@ so let’s download them and reverse engineer them and see what we can find
 
 opening the EXE in ghidra and looking through the strings we can find this 
 
-![image.png](/assets/img/HackTheBox/Machines/Cascade/image%202.png)
+![image.png](/assets/img/HackTheBox/Machines/Cascade/image2.png)
 
 this is the encryption key 
 
 first let’s investigate what language the binary and see how to decompile it 
 
-![image.png](/assets/img/HackTheBox/Machines/Cascade/image%203.png)
+![image.png](/assets/img/HackTheBox/Machines/Cascade/image3.png)
 
 it’s a .NET binary let’s open it using `ILSpy` 
 
-![image.png](/assets/img/HackTheBox/Machines/Cascade/image%204.png)
+![image.png](/assets/img/HackTheBox/Machines/Cascade/image4.png)
 
 now we have the IV and KEY and we know it’s AES CBC encryption 
 
@@ -516,7 +516,7 @@ now let’s see what we can do
 
 from bloodhound we can see this
 
-![image.png](/assets/img/HackTheBox/Machines/Cascade/image%205.png)
+![image.png](/assets/img/HackTheBox/Machines/Cascade/image5.png)
 
 our compromised user is part of the AD RecycleBin group which means we can see what are the deleted objects
 
