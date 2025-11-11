@@ -3,7 +3,7 @@ title: "HackTheBox - Cascade"
 author: DrLi
 description: "Writeup of an medium-rated  machine from HackTheBox"
 date: 2025-11-9 12:11:20 +0000
-categories : [HackTheBox]
+categories : [HackTheBox, Machines]
 tags: [hackthebox, windows, medium, active directory, smb, vnc, reverse engineering, dll, crypto, ldap, password reuse, recyclebin]
 img_path: /assets/img/HackTheBox/Machines/Cascade
 image:

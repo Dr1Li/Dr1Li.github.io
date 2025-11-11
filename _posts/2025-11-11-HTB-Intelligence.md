@@ -3,7 +3,7 @@ title: "HackTheBox - Intelligence"
 author: DrLi
 description: "Writeup of a medium-rated Windows Active Directory machine from HackTheBox"
 date: 2025-11-11 13:24:00 +0000
-categories: [HackTheBox]
+categories : [HackTheBox, Machines]
 tags: [hackthebox, windows, medium, active directory, smb, pdf, metadata, password spraying, dns poisoning, responder, gmsa, constrained delegation, kerberos, s4u2self, s4u2proxy, bloodhound]
 img_path: /assets/img/HackTheBox/Machines/Intelligence
 image:

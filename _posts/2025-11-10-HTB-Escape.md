@@ -3,7 +3,7 @@ title: "HackTheBox - Escape"
 author: DrLi
 description: "Writeup of a medium-rated Windows Active Directory machine from HackTheBox"
 date: 2025-11-10 12:11:20 +0000
-categories : [HackTheBox]
+categories : [HackTheBox, Machines]
 tags: [hackthebox, windows, medium, active directory, smb, mssql, ntlm relay, responder, adcs, esc1, certificate abuse, password cracking, winrm, sql]
 img_path: /assets/img/HackTheBox/Machines/Escape
 image:
