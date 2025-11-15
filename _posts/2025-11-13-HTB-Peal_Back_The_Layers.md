@@ -10,6 +10,10 @@ image:
     path: /assets/img/HackTheBox/Challenges/forensics.png
 ---
 
+<div align="center"><script src="https://tryhackme.com/badge/2794771"></script></div>
+
+---
+
 The Peel Back The Layers challenge from [HackTheBox](https://www.hackthebox.com/) is an easy Docker forensics task where an attacker inserted a backdoor into a public Docker image using LD_PRELOAD. By investigating Docker image layers, extracting the deleted shared object, and analyzing its code, the backdoor's reverse shell payload was recovered along with the hidden flag.
 
 # Peel Back The Layers (HTB Easy)
