@@ -193,7 +193,6 @@ inside PWM/defaults/main.yml
 
 ```bash
 ---
-pwm_run_dir: "{{ lookup('env', 'PWD') }}"
 
 pwm_hostname: authority.htb.corp
 pwm_http_port: "{{ http_port }}"
