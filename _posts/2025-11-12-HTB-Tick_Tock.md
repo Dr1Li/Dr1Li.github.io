@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - TickTock"
 author: DrLi
-description: "Writeup of a medium-rated DFIR Sherlock challenge from HackTheBox involving system log analysis and remote access investigation."
+description: "Writeup of a medium-rated DFIR Sherlock from HackTheBox."
 date: 2025-11-12 21:20:00 +0100
 categories: [HackTheBox, Sherlocks]
 tags: [hackthebox, sherlock, dfir, windows forensics, powershell, c2 analysis, teamviewer, event logs, bitlocker, malware, defender analysis]

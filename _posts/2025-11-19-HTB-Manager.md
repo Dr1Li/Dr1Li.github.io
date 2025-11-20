@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - Manager"
 author: DrLi
-description: "Writeup of a medium-rated Windows Active Directory machine from HackTheBox involving MSSQL access and Active Directory Certificate Services privilege escalation."
+description: "Writeup of a medium-rated Windows Active Directory machine from HackTheBox"
 date: 2025-11-19 15:00:00 +0000
 categories: [HackTheBox, Machines]
 tags: [hackthebox, windows, medium, active directory, smb, mssql, rid-brute, winrm, powershell, adcs, esc7, certificate abuse, certipy]

@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - Automation"
 author: DrLi
-description: "Writeup of an easy-rated Forensics challenge from HackTheBox involving DNS tunneling and AES encryption"
+description: "Writeup of an easy-rated Forensics challenge from HackTheBox."
 date: 2025-11-15 11:30:00 +0000
 categories : [HackTheBox, Challenges]
 tags: [hackthebox, forensics, pcap, dns-tunneling, aes-encryption, wireshark, malware-analysis]
